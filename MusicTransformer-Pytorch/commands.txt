@@ -1,0 +1,4 @@
+python3 preprocess_midi.py -output_dir processed ../midiFill/data --custom_dataset
+
+python3 generate.py -midi_root processed -output_dir generated -model_weights saved_models/results/best_acc_weights.pickle --rpr
+

@@ -1,0 +1,8 @@
+**/saved_models/*
+**/outputGraphs/*
+
+data/*
+**.mid
+**.pickle
+**.pyc
+**/__pycache__/*
